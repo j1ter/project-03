@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Museo Sans 300 Light";
-  src: url("MuseoSansCyrl-300.eot");
-  src: url("MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"),
+  src: url("MuseoSansCyrl-300"),
     url("../fonts/MuseoSansCyrl-300.woff") format("woff"),
     url("../fonts/MuseoSansCyrl-300.woff2") format("woff2");
   font-weight: 300;
@@ -10,8 +9,7 @@
 
 @font-face {
   font-family: "Museo Sans 500 Medium";
-  src: url("MuseoSansCyrl-500.eot");
-  src: url("MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"),
+  src: url("MuseoSansCyrl-500"),
     url("../fonts/MuseoSansCyrl-500.woff") format("woff"),
     url("../fonts/MuseoSansCyrl-500.woff2") format("woff2");
   font-weight: 500;
@@ -20,8 +18,7 @@
 
 @font-face {
   font-family: "Museo Sans 700 Bold";
-  src: url("MuseoSansCyrl-700.eot");
-  src: url("MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"),
+  src: url("MuseoSansCyrl-700"),
     url("../fonts/MuseoSansCyrl-700.woff") format("woff"),
     url("../fonts/MuseoSansCyrl-700.woff2") format("woff2");
   font-weight: 700;
