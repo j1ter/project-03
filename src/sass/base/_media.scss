@@ -1,0 +1,28 @@
+@media (max-width: 1200px){}
+
+@media (max-width: 991px){
+    
+    .promo{
+        .container{
+            padding: 0 10px;
+        }
+        &__header{
+            font-size: 40px;
+        }
+        &__subheader{
+            font-size: 22px;
+        }
+    }
+
+    .advantages{
+        .container{
+            padding: 0 10px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    
+}
+
+@media (max-width: 575px){}
