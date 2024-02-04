@@ -3,25 +3,55 @@
 @media (max-width: 991px){
     
     .promo{
-        .container{
-            padding: 0 10px;
+        .header{
+            margin: 0 10px;
         }
         &__header{
+            margin-right: 10px;
             font-size: 40px;
         }
         &__subheader{
+            margin-right: 10px;
             font-size: 22px;
         }
-    }
-
-    .advantages{
-        .container{
-            padding: 0 10px;
+        .button{
+            margin-right: 10px;
+        }
+        &__link{
+            margin-right: 10px;
         }
     }
+    
+    .advantages{
+        padding: 60px 10px;
+    }
+    
 }
 
 @media (max-width: 767px){
+    .promo{
+        .xs-hidden{
+            display: none;
+        }
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .advantages{
+        &__wrapper{
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+        }
+
+        &__item{
+            margin: 0 14px;
+            margin-top: 30px;
+            
+        }
+        
+    }
     
 }
 
