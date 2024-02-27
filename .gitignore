@@ -2,8 +2,8 @@
 
 # dependencies
 /node_modules
+src/mailer
 
-src/mailer/smart.php
 
 # testing
 /coverage
